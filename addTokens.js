@@ -1,5 +1,5 @@
 // Adds currencies using endpoint /api/users/add-rewards
-export async function addTokens() {
+export async function addTokens('11000') {
 
 	// Blooket overrides the default window.alert function, so this is needed to access it
 	function customAlert(msg)
